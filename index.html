@@ -51,10 +51,9 @@
             <section class="hero">
                 <div class="overlya">
                     <h1 class="slogan">Еффективные решения <br /> для вашего бизнеса</h1>
-                    <button type="button" class="button">Заказать услугу</button>
+                    <button type="button" data-modal-open class="button">Заказать услугу</button>
                 </div>
             </section>
-
 
             <!--Преимущества-->
             <section class="features">
@@ -417,6 +416,19 @@
                 </div>
             </div>
         </footer>
+
+        <!--Модальное окно-->
+        <div data-modal class="backdrop is-hidden">
+            <div class="modal">
+                <button data-modal-close class="modal-button" >
+                    <svg class="close-icon">
+                        <use href="./images/sprite.svg#icon-close"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+      <script src="./js/modal.js"></script>
     </body>
 
 </html>
