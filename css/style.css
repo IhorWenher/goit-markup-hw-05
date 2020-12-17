@@ -111,7 +111,6 @@ img {
 .list-item:hover,
 .list-item:focus {
   color: var(--accent-color);
-  outline: none;
 }
 
 .list-item:active {
@@ -171,7 +170,6 @@ img {
 .mail-phone:hover,
 .mail-phone:focus {
   color: var(--accent-color);
-  outline: none;
 }
 
 .envelope-icon {
@@ -255,8 +253,6 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-
-  outline: none;
 }
 
 /* Преимущества*/
@@ -528,7 +524,6 @@ img {
 .social-link:hover {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
-  outline: none;
 }
 
 .pin {
@@ -586,7 +581,6 @@ img {
 .clients-link:hover {
   color: var(--accent-color);
   border-color: var(--accent-color);
-  outline: none;
 }
 
 .clients-icon {
@@ -709,7 +703,6 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-  outline: none;
 }
 
 .projects-container {
@@ -796,8 +789,6 @@ img {
 .project:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-
-  outline: none;
 }
 
 .project-title {
@@ -920,7 +911,6 @@ img {
 .footer .social-link:focus,
 .footer .social-link:hover {
   background-color: var(--accent-color);
-  outline: none;
 }
 
 /*Модальное окно*/
@@ -984,6 +974,7 @@ img {
   width: 30px;
   height: 30px;
 
+  background-color: var(--primary-bg-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
